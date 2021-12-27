@@ -2,12 +2,14 @@ require('dotenv').config();
 const { Client, Intents } = require('discord.js');
 const { verify } = require('./commands/verify');
 const { welcome } = require('./commands/welcome');
+/*
 const { faq } = require('./commands/faq');
 const { rules } = require('./commands/rules');
 const { roadmap } = require('./commands/roadmap');
 const { links } = require('./commands/links');
 const { overview } = require('./commands/overview');
 const { setup } = require('./commands/setup');
+*/
 
 const client = new Client({
 	intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MEMBERS, Intents.FLAGS.GUILD_MESSAGE_REACTIONS],

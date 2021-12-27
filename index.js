@@ -22,6 +22,7 @@ client.on('guildMemberAdd', async (member) => {
   welcome(member);
 });
 
+/*
 client.on('messageCreate', async (message) => {
   if (message.author.id !== '304249277096525824') return;
 
@@ -55,6 +56,7 @@ client.on('messageCreate', async (message) => {
       break;
   };
 });
+*/
 
 client.on('messageReactionAdd', async (reaction, user) => {
   verify(reaction, user, true);

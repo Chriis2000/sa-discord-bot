@@ -19,7 +19,7 @@ const verify = async (reaction, user, a) => {
 	};
 
   if (reaction._emoji.name !== "🍌") return;
-  if (reaction.message.id !== '924100131035439146') return;
+  if (reaction.message.id !== '924418250727641099') return;
 
   member.roles.add(verifiedRole);
   

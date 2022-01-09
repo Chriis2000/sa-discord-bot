@@ -9,11 +9,11 @@ const overview = async (guild, member) => {
 
     const overview1 = new MessageEmbed()
 	.setColor('#ffff7d')
-	.setDescription('Scribble Apes (also knwon as SAPEs) are a unique collection 4,444 automatically generated colourful Ape art. With over 100 hand drawn attributes there will never be two of the same! 🎨')
+	.setDescription('Scribble Apes (also knwon as SCRAPEs) are a unique collection 4,444 automatically generated colourful Ape art. With over 100 hand drawn attributes there will never be two of the same! 🎨')
 
     const overview2 = new MessageEmbed()
     .setColor('#ffff7d')
-	.setDescription('All 4444 Apes all need new homes for the new year. They are not just PNGs but a sign of community and family! Each "SAPE" is unique with some containing rarer attributes than others')
+	.setDescription('All 4444 Apes all need new homes for the new year. They are not just PNGs but a sign of community and family! Each "SCRAPE" is unique with some containing rarer attributes than others')
 
     const overview3 = new MessageEmbed()
     .setColor('#ffff7d')	

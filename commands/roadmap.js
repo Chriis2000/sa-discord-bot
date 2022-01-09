@@ -4,40 +4,45 @@ const roadmap = async (guild, member) => {
     const roadmapChat = guild.channels.cache.get("922121717244125244");
 
     const roadmapTitle = new MessageEmbed()
-    .setColor('#f3d04e')
-    .setImage('https://i.imgur.com/PRvgFMF.png');
+    .setColor('#ffff7d')
+    .setImage('https://i.imgur.com/50OR6t2.png');
+
+    const roadmap0 = new MessageEmbed()
+	.setColor('#ffff7d')
+	.setTitle('#1 - 0%')
+	.setDescription('We organise Collaborations with other NFT Projects.')
 
     const roadmap1 = new MessageEmbed()
-	.setColor('#f3d04e')
-	.setTitle('#1 - 20%')
-	.setDescription('We pay back the dedicated team of Scribble Apes! (Including the artists, devs, staff members and many more!')
+	.setColor('#ffff7d')
+	.setTitle('#2 - 20%')
+	.setDescription('We give back to the dedicated team of Scribble Apes! (Including the Artists, Devs, Community Helpers and many more!')
 
     const roadmap2 = new MessageEmbed()
-    .setColor('#f3d04e')
-	.setTitle('#2 - 40%')
-	.setDescription('To show our gratitude to the people who made this project happen (You!) we will purchase an NFT worth $15,000 and provide a giveaway to anyone who has purchased a SAPE. (Which nft we will be giving away will also be decided through a poll in our discord server)')
+    .setColor('#ffff7d')
+	.setTitle('#3 - 40%')
+	.setDescription('To show our gratitude to the community who made this project happen (You!) we will purchase an NFT worth $25,000 and provide a giveaway to anyone who has purchased a #SCRAPE. (The choice of NFT will be decided by the Members of the Scribble Ape Discord via a Poll/Suggestions)')
 
     const roadmap3 = new MessageEmbed()
-    .setColor('#f3d04e')
-	.setTitle('#3 - 60%')
-	.setDescription('We will donate $20,000 to Save the Chimps. Save the Chimps is a large sanctuary for Chimpanzees whos mission is to provide a refuge for these Endangered Animals. Totgether lets give something back!')
+    .setColor('#ffff7d')
+	.setTitle('#4 - 60%')
+	.setDescription('We will donate $20,000 to Save the Chimps. Save the Chimps is a large sanctuary for Chimpanzees there works ensures these endangered animals are provided a safe haven (and who doesnt like chimps...) Together lets give something back!')
 
     const roadmap4 = new MessageEmbed()
-    .setColor('#f3d04e')
-	.setTitle('#4 - 80%')
-	.setDescription('10 ETH will be added to the Community Walet (Whos etherscan address will be available to view in the future) This Community Wallet will be used to purchase and hold NFTs with the profits being split between the owners of SAPEs')
+    .setColor('#ffff7d')
+	.setTitle('#5 - 80%')
+	.setDescription('The Exclusive Scribble Apes Merch Store gets unlocked, featuring Limited Edition T-Shirts, Hoodies, and other Items.')
 
     const roadmap5 = new MessageEmbed()
-    .setColor('#f3d04e')
-	.setTitle('#5 - 100%')
-	.setDescription('We will release exclusive SAPE merch available to any holders, this does not only limited to clothing! 👀')
+    .setColor('#ffff7d')
+	.setTitle('#6 - 100%')
+	.setDescription('Mutant Scribble Apes Serum is released upon the MetaVerse... What wonders await?')
 
     const roadmap6 = new MessageEmbed()
-    .setColor('#f3d04e')
+    .setColor('#ffff7d')
 	.setTitle('Got some ideas?')
 	.setDescription('Any suggestions please let us know within the <#924079465129185300>')
 
-    roadmapChat.send({ embeds: [roadmapTitle, roadmap1, roadmap2, roadmap3, roadmap4, roadmap5, roadmap6] });
+    roadmapChat.send({ embeds: [roadmapTitle, roadmap0, roadmap1, roadmap2, roadmap3, roadmap4, roadmap5, roadmap6] });
 };
 
 module.exports = { roadmap };

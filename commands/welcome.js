@@ -4,10 +4,10 @@ const welcome = async (member) => {
     const welcomeChat = member.guild.channels.cache.get("922122177040482344");
 
     const welcomeEmbed = new MessageEmbed()
-	.setColor('#f3d04e')
+	.setColor('#ffff7d')
 	.setTitle(`${member.user.username}#${member.user.discriminator} just joined the server!`)
 	.setDescription(`<@${member.user.id}> Welcome to the **Scribble Apes** community!`)
-	.setImage('https://i.imgur.com/uUpPeEc.png')
+	.setImage('https://i.imgur.com/ihUxHfh.png')
 	.setTimestamp()
 	.setFooter('Scribble Apes', 'https://i.imgur.com/fWMV4LV.jpg');
 

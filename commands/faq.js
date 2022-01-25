@@ -21,27 +21,27 @@ const faq = async (guild, member) => {
     const faq2 = new MessageEmbed()
     .setColor('#ffff7d')
 	.setTitle('What is the total supply of Scribble Apes?')
-	.setDescription('There will be a total of 4,444 uniquely generated Scribble Apes.')
+	.setDescription('Scribble Apes will have a total of 4,444 uniquely generated pieces of art.')
 
     const faq3 = new MessageEmbed()
     .setColor('#ffff7d')
-	.setTitle('Is there a launch date?')
-	.setDescription('As of yet there is not a launch date. We will be looking at growing our community first. However a launch date will be availabe soon!')
+	.setTitle('What are the Dates?')
+	.setDescription('Pre-Sale: 11th of February at 6pm EST\nPublic Sale: 12th of February, 7pm EST.')
 
     const faq4 = new MessageEmbed()
     .setColor('#ffff7d')
-	.setTitle('What is the cost to mint an Scribble Ape?')
-	.setDescription('It will cost 0.06 ETH to mint an ape + gas fees.')
+	.setTitle('How much will it cost to mint a Scribble Ape?')
+	.setDescription('0.06 ETH + gas fees.')
 
     const faq5 = new MessageEmbed()
     .setColor('#ffff7d')
-	.setTitle('Is there a pre-sale?')
-	.setDescription('Yes! There will be a pre-sale. The first 444 people to join and apply for the OG Ape role will automatically also get the whitelist role. Thereafter there will be multiple giveaways in order to receive a whitelist role to gain access to the pre sale.')
+	.setTitle('How many WLs will there be?')
+	.setDescription('The WL for Scribble Apes will be split into two catagories.\nOG Apes: OG Ape will contain a WL + added benefits following our mint date. Check <@922121717244125244> & <@930557452280283136> for more details.\nWL Ape: Will gain access to the Pre-Sale only.')
 
     const faq6 = new MessageEmbed()
     .setColor('#ffff7d')
-	.setTitle('Anymore questions?')
-	.setDescription('Feel free to ask in <#922178442009669653>')
+	.setTitle('How will Scribble Apes reveal?')
+	.setDescription('We will reveal the Apes 72 hours after the Public Sale date.')
 
     faqChat.send({ embeds: [faqTitle, faq1, faq2, faq3, faq4, faq5, faq6] });
     //member.send({ embeds: [faqTitle, faq1, faq2, faq3, faq4, faq5, faq6] });
